@@ -1,0 +1,30 @@
+{
+  "name": "digital-photo-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run build:renderer && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:renderer": "parcel src/renderer/index.html --dist-dir dist_renderer",
+    "build:renderer": "parcel build src/renderer/index.html --dist-dir dist_renderer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.4.0",
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dropbox": "^10.34.0",
+    "exif-parser": "^0.1.12",
+    "face-api.js": "^0.22.2",
+    "googleapis": "^150.0.1",
+    "nedb": "^1.8.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sharp": "^0.34.2"
+  }
+}
