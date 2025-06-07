@@ -1,0 +1,2 @@
+Please download face-api.js model weights and place them here.
+See https://github.com/justadudewhohacks/face-api.js#getting-started---node
